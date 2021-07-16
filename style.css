@@ -1,0 +1,46 @@
+body {
+  background-color: #d8d8d8;
+}
+.gog-nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 56px;
+  background: url(https://menu-static.gog-statics.com/assets/img/bg.jpg)
+    repeat-x top center rgba(26, 26, 26, 0.9);
+  z-index: -1;
+}
+.gog-section-header {
+  border-bottom: 1px solid #bfbfbf;
+  line-height: 16px;
+}
+.gog-card-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.gog-btn {
+  background-color: #78387b;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.2rem;
+}
+.gog-prices {
+  line-height: 1rem;
+}
+.gog-link {
+  margin-bottom: -1px;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.gog-link:hover {
+  color: #78387b !important;
+  text-decoration: none;
+}
+.gog-link.active {
+  background: transparent;
+  border-bottom: 2px solid purple;
+}

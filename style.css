@@ -28,6 +28,31 @@ body {
   font-size: 1.1rem;
   padding: 0.2rem;
 }
+.gog-btn-small {
+  background-color: #78387b;
+}
+.gog-caption {
+  left: 5%;
+  right: 5%;
+}
+.gog-color {
+  background-color: #78387b;
+}
+.carousel-indicators li {
+  height: 2px;
+}
+.carousel-indicators li.active {
+  background-color: #78387b !important;
+}
+.gog-mark {
+  color: #86328a;
+  background-color: transparent;
+  font-weight: 700;
+}
+#someAdd a:hover {
+  text-decoration: none;
+}
+
 .gog-prices {
   line-height: 1rem;
 }
@@ -43,4 +68,75 @@ body {
 .gog-link.active {
   background: transparent;
   border-bottom: 2px solid purple;
+}
+.gog-sales-image {
+  max-height: 200px;
+  max-width: 140px;
+  overflow: hidden;
+}
+/* .gog-sales-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+.gog-card-horizontal {
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+.gog-price {
+  font-weight: 700;
+  color: rgb(54, 54, 54);
+}
+.gog-card-horizontal:hover {
+  background-color: rgb(236, 236, 236);
+  padding-left: 0.5rem;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.gog-card-horizontal:hover .gog-btn-shopping {
+  display: block;
+}
+.gog-btn-shopping {
+  background-image: linear-gradient(180deg, #a5c700, #86b300);
+  border: 1px solid #7fab34;
+  border-radius: 3px;
+  width: 33px;
+  margin-left: 0.5rem;
+  height: 33px;
+  display: none;
+}
+.gog-btn-showMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #bfbfbf;
+  margin: 8px auto;
+  background-color: transparent;
+}
+.gog-btn-showMore p {
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+  margin: 0;
+}
+.gog-btn-showMore:hover {
+  background-color: hsla(0, 0%, 100%, 0.15);
+  text-decoration: none;
+}
+.card:hover {
+  box-shadow: 0 2px 5px darkgray;
+}
+.gog-footer-link {
+  display: inline-block;
+  color: #ddd;
+  margin-right: 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.gog-footer-link i {
+  font-size: 1rem;
+}
+.gog-footer-link:hover {
+  text-decoration: none;
+  color: rgb(252, 252, 252);
 }
